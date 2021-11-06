@@ -14,6 +14,8 @@
     "preshow:dist": "npm run build",
     "show:dist": "live-server dist"
   },
+  "author": "vika",
+  "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.10.5",
     "@babel/core": "^7.10.5",
@@ -40,8 +42,7 @@
     "type": "git",
     "url": "git+https://github.com/viktorka1347/ajs-8-1.git"
   },
-  "author": "vika",
-  "license": "ISC",
+ 
   "bugs": {
     "url": "https://github.com/viktorka1347/ajs-8-1/issues"
   },
