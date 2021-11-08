@@ -10,11 +10,11 @@ export default class Team {
     this.members.add(hero);
   }
 
-  addAll(...heroes) {
-    heroes.forEach((hero) => this.members.add(hero));
+  addAll(...rest) {
+    rest.forEach((hero) => this.members.add(hero));
   }
 
   toArray() {
-    return [...this.members];
+    return Array.from(this.members);
   }
 }
